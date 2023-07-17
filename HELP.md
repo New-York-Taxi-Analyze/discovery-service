@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.newyorktaxi.eureka-service' is invalid and this project uses 'com.newyorktaxi.eurekaservice' instead.
+* The original package name 'com.newyorktaxi.discovery-service' is invalid and this project uses 'com.newyorktaxi.discoveryservice' instead.
 
 # Getting Started
 

@@ -1,1 +1,1 @@
-# eureka-service
+# discovery-service
