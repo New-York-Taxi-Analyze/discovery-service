@@ -5,6 +5,20 @@ spring:
 server:
   port: 8070
 
+info:
+  app:
+    name: discovery-service
+    description: Discovery Service
+    version: 0.0.1-SNAPSHOT
+
+management:
+  web:
+    exposure:
+      include: '*'
+  tracing:
+    sampling:
+      probability: 1.0
+
 eureka:
   instance:
     hostname: localhost
@@ -13,3 +27,9 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+logging:
+  level:
+    com:
+      newyorktaxi:
+        discovery-service: DEBUG
